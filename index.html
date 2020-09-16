@@ -51,7 +51,39 @@
         </section>
 
         <footer>
-
+            <div class="footer-elemento">
+                <div class="footer-elemento-titulo"><strong>Acerca</strong></div>
+                <span class="estilo-enlace">Quién soy?</span><br>
+                <span class="estilo-enlace">Me gusta: Videos</span><span class="color-muted"> (Youtube/Vimeo)</span><br>
+                <span class="estilo-enlace">Me gusta: Fotos</span><span class="color-muted"> (Instagram)</span>
+                            </div>
+            <div class="footer-elemento">
+                <div class="footer-elemento-titulo"><strong>Portafolio</strong></div>
+                <span class="estilo-enlace">Logos</span><br>
+                <span class="estilo-enlace">Empaques</span><br>
+                <span class="estilo-enlace">Promocionales</span><br>
+                <span class="estilo-enlace">Fotografía</span><br>
+            </div>
+            <div class="footer-elemento footer-elemento-contacto">
+                <div class="footer-elemento-contacto-texto">
+                    <div class="footer-elemento-contacto-texto-subtitulo">
+                        <br><br>
+                        Página web diseñada<br>
+                        por Nombre Apellido
+                        <br><br>
+                    </div>
+                    <span class="footer-elemento-contacto-texto-titulo estilo-enlace">Contacto</span>
+                </div>
+                <div class="footer-elemento-contacto-imagen">
+                    <div class="footer-elemento-contacto-imagen-foto">
+                        <div class="footer-elemento-contacto-imagen-foto-texto">
+                            Foto<br>
+                            Avatar,<br>
+                            o display
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
@@ -175,5 +207,67 @@
         font-size: 60px;
     }
     /* Contenido Fin */
+
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-elemento {
+        width: 23%;
+        height: 130px;
+        margin: 10px;
+        padding-left: 20px;
+        border: 2px black solid;
+    }
+
+    .footer-elemento-titulo {
+        font-size: 28px;
+        margin: 10px 0px 5px 0px;
+        color: #069D6C;
+    }
+
+    .footer-elemento-contacto {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .footer-elemento-contacto-texto {
+        flex-grow: 5;
+    }
+
+    .footer-elemento-contacto-texto-subtitulo {
+        font-size: 14px;
+    }
+
+    .footer-elemento-contacto-imagen {
+        flex-grow: 5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-elemento-contacto-imagen-foto {
+        border: 2px black solid;
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer-elemento-contacto-imagen-foto-texto {
+        margin: 15px 0px 0px 15px;
+        font-size: 14px;
+    }
+
+    .estilo-enlace {
+        color: #0000EE;
+        text-decoration: underline;
+    }
+
+    .color-muted {
+        color: black;
+        font-size: 13px;
+    }
 </style>
 </html>
