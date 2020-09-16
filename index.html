@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Documento</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo">
+                <div class="logo-texto">
+                    <div class="logo-texto-1">
+                        (Logo)
+                    </div>
+                    <div class="logo-texto-2">
+                        &rsaquo;&rsaquo;&nbsp;index.html
+                    </div>
+                </div>
+            </div>
+            <div class="enlaces">
+                <div class="enlaces-principal">
+                    <div class="enlaces-principal-titulo">
+                        <div class="enlaces-principal-titulo-text">Incio</div>
+                        <div class="enlaces-principal-titulo-text">Acerca</div>
+                        <div class="enlaces-principal-titulo-text">Portafolio</div>
+                        <div class="enlaces-principal-titulo-text">Contacto</div>
+                    </div>
+                    <div class="enlaces-principal-archivo">
+                        <div class="enlaces-principal-archivo-text">&rsaquo;&rsaquo;&nbsp;index.html</div>
+                        <div class="enlaces-principal-archivo-text">&rsaquo;&rsaquo;&nbsp;acerca.html</div>
+                        <div class="enlaces-principal-archivo-text">&rsaquo;&rsaquo;&nbsp;portafolio.html</div>
+                        <div class="enlaces-principal-archivo-text">&rsaquo;&rsaquo;&nbsp;contacto.html</div>
+                    </div>
+                </div>
+            </div>
+            <div class="social">
+                <div class="social-icons">
+                    <div class="social-icons-icon"></div>
+                    <div class="social-icons-icon"></div>
+                    <div class="social-icons-icon"></div>
+                </div>
+                <div class="social-nombres">
+                    Instagram,<br>
+                    Twitter,<br>
+                    Youtube
+                </div>
+            </div>
+        </header>
+
+        <section>
+
+        </section>
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+<style>
+    .main {
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+        border: 2px black solid;
+    }
+
+    header {
+        display: flex;
+        align-items: stretch;
+    }
+
+
+
+    /* Logo Inicio */
+    .logo {
+        flex-grow: 3;
+        display: flex;   
+        justify-content: center;
+        align-items: center;    
+        height: 150px;
+        border: 2px black solid;
+    }
+
+    .logo-texto {
+        margin: 0px 0px 0px -40px;
+    }
+    
+    .logo-texto-1 {
+        font-size: 35px;
+    }
+
+    .logo-texto-2 {
+        font-size: 15px;
+    }
+    /* Logo Fin */
+
+
+
+    /* Enlaces Inicio */
+    .enlaces {
+        flex-grow: 6;
+        padding: 45px 25px 10px 60px;
+    }
+
+    .enlaces-principal {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .enlaces-principal-titulo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        height: 65%;
+        border: 2px black solid;
+    }
+
+    .enlaces-principal-titulo-text {
+        font-size: 25px;
+        border-bottom: 2px black solid;
+    }
+
+    .enlaces-principal-archivo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        height: 35%;
+    }
+
+    .enlaces-principal-archivo-text {
+        font-size: 15px;
+    }
+    /* Enlaces Fin */
+
+
+
+    /* Social Inicio */
+    .social {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social-icons-icon {
+        display: block;
+        width: 20%;
+        height: 15px;
+        border: 2px black solid;
+    }
+
+    .social-nombres {
+        margin-left: 7px;
+        font-size: 15px;
+    }
+    /* Social Fin */
+
+    
+    
+</style>
+</html>
