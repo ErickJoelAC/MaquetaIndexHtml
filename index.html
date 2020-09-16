@@ -7,7 +7,7 @@
     <div class="main">
         <header>
             <div class="logo">
-                <div class="logo-texto">
+                <div class="logo-texto color-enlace">
                     <div class="logo-texto-1">
                         (Logo)
                     </div>
@@ -19,12 +19,12 @@
             <div class="enlaces">
                 <div class="enlaces-principal">
                     <div class="enlaces-principal-titulo">
-                        <div class="enlaces-principal-titulo-text">Incio</div>
-                        <div class="enlaces-principal-titulo-text">Acerca</div>
-                        <div class="enlaces-principal-titulo-text">Portafolio</div>
-                        <div class="enlaces-principal-titulo-text">Contacto</div>
+                        <div class="enlaces-principal-titulo-text estilo-enlace">Inicio</div>
+                        <div class="enlaces-principal-titulo-text estilo-enlace">Acerca</div>
+                        <div class="enlaces-principal-titulo-text estilo-enlace">Portafolio</div>
+                        <div class="enlaces-principal-titulo-text estilo-enlace">Contacto</div>
                     </div>
-                    <div class="enlaces-principal-archivo">
+                    <div class="enlaces-principal-archivo color-enlace">
                         <div class="enlaces-principal-archivo-text">&rsaquo;&rsaquo;&nbsp;index.html</div>
                         <div class="enlaces-principal-archivo-text">&rsaquo;&rsaquo;&nbsp;acerca.html</div>
                         <div class="enlaces-principal-archivo-text">&rsaquo;&rsaquo;&nbsp;portafolio.html</div>
@@ -38,7 +38,8 @@
                     <div class="social-icons-icon"></div>
                     <div class="social-icons-icon"></div>
                 </div>
-                <div class="social-nombres">
+                <div class="social-nombres color-enlace">
+                    <br>
                     Instagram,<br>
                     Twitter,<br>
                     Youtube
@@ -52,13 +53,13 @@
 
         <footer>
             <div class="footer-elemento">
-                <div class="footer-elemento-titulo"><strong>Acerca</strong></div>
+                <div class="footer-elemento-titulo">Acerca</div>
                 <span class="estilo-enlace">Quién soy?</span><br>
                 <span class="estilo-enlace">Me gusta: Videos</span><span class="color-muted"> (Youtube/Vimeo)</span><br>
                 <span class="estilo-enlace">Me gusta: Fotos</span><span class="color-muted"> (Instagram)</span>
                             </div>
             <div class="footer-elemento">
-                <div class="footer-elemento-titulo"><strong>Portafolio</strong></div>
+                <div class="footer-elemento-titulo">Portafolio</div>
                 <span class="estilo-enlace">Logos</span><br>
                 <span class="estilo-enlace">Empaques</span><br>
                 <span class="estilo-enlace">Promocionales</span><br>
@@ -151,7 +152,7 @@
 
     .enlaces-principal-titulo-text {
         font-size: 25px;
-        border-bottom: 2px black solid;
+        /* border-bottom: 2px black solid; */
     }
 
     .enlaces-principal-archivo {
@@ -184,8 +185,8 @@
     .social-icons-icon {
         display: block;
         width: 20%;
-        height: 15px;
-        border: 2px black solid;
+        height: 25px;
+        border: 2px #0000EE solid;
     }
 
     .social-nombres {
@@ -263,6 +264,10 @@
     .estilo-enlace {
         color: #0000EE;
         text-decoration: underline;
+    }
+
+    .color-enlace {
+        color: #0000EE;
     }
 
     .color-muted {
